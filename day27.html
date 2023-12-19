@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .recipe {
+            /* max-width: 100%; */
+            padding: 10px;
+            width: 400px;
+        }
+        .ingredients, .instructions {
+            padding: 10px;
+        
+            margin: 10px 0;
+        }
+        article{
+            float: left;
+            height: auto;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+        }
+        /* @media (min-width:600px){
+            .ingredients, .instructions{
+                padding:5px;            
+            }
+        }
+            .recipe{
+              column-count: 3;    
+               }
+             .instructions-1{         
+                h2{
+
+                   break-before: column;
+                }
+                }
+                .instructions-2{
+                 h2{
+
+                  break-before: column ;
+                }
+        } */
+
+        body{
+            background-color: rgb(247, 247, 238);
+        }
+    h1{
+        text-align: center;
+    }
+           </style>
+</head>
+<body>
+    <h1>Delicious Recipe!!</h1>
+    <article class="recipe">
+                        <div class="ingredients">
+            <h2>Ingredients</h2>
+            <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/pouring-honey-on-pancakes.jpg" width="250px">
+            <ul>
+                <li>Ingredient 1</li>
+                <li>Ingredient 2</li>
+                <li>Ingredient 3</li>
+              </ul>
+        </article>
+        <article class="instructions-1">
+            <h2>Instructions</h2>
+            <img src="https://i.pinimg.com/originals/bb/f6/f5/bbf6f58a702264705f8cb9fbe37d4bdf.png" width="250px">
+            <ol>
+                <li>Step 1: Do something</li>
+                <li>Step 2: Do something else</li>
+                <li>Step 3: Enjoy your meal!</li>
+                          </ol>
+        </article>
+        <article class="instructions-2">
+            <h2>Instructions</h2>
+            <img src="https://i.pinimg.com/originals/bb/f6/f5/bbf6f58a702264705f8cb9fbe37d4bdf.png" width="250px">
+            <ol>
+                <li>Step 1: Do something</li>
+                <li>Step 2: Do something else</li>
+                <li>Step 3: Enjoy your meal!</li>
+                          </ol>
+        </article>
+</body>
+</html>
